@@ -110,10 +110,10 @@ function uploadImageToBannerAPI(file) {
   // Make a POST request to the API
   fetch("http://127.0.0.1:5000/process_image", {
     // if we use ivcam remove comment below line
-    // method: "POST",
-    method: "GET", // if we use DSLR 
+    method: "POST",
+    // method: "GET", // if we use DSLR 
     // if we use ivcam remove comment below line
-    // body: formData,
+    body: formData,
   })
     .then((response) => {
       if (response.ok) {

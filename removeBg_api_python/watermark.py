@@ -22,8 +22,8 @@ def add_watermark(input_image_path, watermark_image_path, output_image_path):
     result.save(output_image_path)
 
 # Example usage:
-input_image = 'result.jpg'  # Replace with your input image file name
-watermark_image = 'watermark.png'  # Replace with your watermark image file name
+input_image = 'bg3.jpg'  # Replace with your input image file name
+watermark_image = 'without_bg.png'  # Replace with your watermark image file name
 output_image = 'new-image.jpg'
 
 add_watermark(input_image, watermark_image, output_image)
